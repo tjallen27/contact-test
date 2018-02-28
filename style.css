@@ -1,0 +1,247 @@
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+  color: #222;
+}
+.navbar {
+	position: absolute;
+	background: transparent;
+		color: #fff;
+		z-index: 999;
+    box-shadow: none;
+}
+.navbar.navbar-light .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+    background: none;
+}
+.navbar ul {
+	margin-left: 20px;
+}
+.navbar-brand {
+	top: 20px;
+	position: absolute;
+  padding: 10px;
+	display: none;
+	color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: none;
+	opacity: 1;
+}
+.navbar a:hover {
+	text-decoration: none;
+	color: #ddd;
+}
+.nav-item {
+	color: #fff;
+}
+.nav-link {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	color: #fff;
+}
+
+#contact-btn {
+	position: absolute;
+	z-index: 999;
+	top: 40px;
+	right: 40px;
+}
+section {
+	margin: 100px auto 100px;
+}
+section h2 {
+	text-align: center;
+}
+
+#about {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 100px 0 0 0;
+}
+#about span {
+	display: block;
+	width: 200px;
+	height: 2px;
+	margin-top: 50px;
+	background: #333;
+}
+p {
+	font-weight: 300;
+	text-align: justify;
+}
+
+.jarallax {
+  background: url('https://images.pexels.com/photos/881462/pexels-photo-881462.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+	position: relative;
+	z-index: 0;
+}
+
+.hidden-title {
+
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+h6 span {
+	display: inline-block;
+	width: 30px;
+	height: 1px;
+	background: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 42px;
+	vertical-align: 12%;
+}
+.grid-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#gallery{
+  max-width: 1000px;
+  margin: 150px auto 0;
+}
+#gallery .row {
+  margin: 0px;
+}
+#gallery .col-md-6,
+#gallery .col-md-3{
+  margin: 0;
+  padding: 2px !important;
+}
+#gallery img {
+	max-height: 500px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px;
+}
+#gallery img:hover {
+  opacity: 0.6;
+	border-radius: 5px;
+}
+#gallery .btn-background-white {
+	background: white;
+}
+#gallery p.black-text {
+	font-weight: bold;
+}
+.feature-image {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.download {
+	text-align: center;
+}
+.table {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.team-section {
+	max-width: 1000px;
+	margin: 150px auto 0;
+}
+
+#how-its-done {
+	width: 100%;
+
+}
+#how-its-done .container {
+	max-width: 800px;
+	color: #222;
+}
+.card-container {
+	margin: 50px 0;
+}
+.card-image {
+	background: linear-gradient(to bottom, #0d47a1 0%,#4285f4 100%);
+	padding: 30px;
+	border: solid 4px white;
+}
+/*.card-image.card-left {
+	margin-left: -10px;
+	margin-right: 10px;
+}
+.card-image.card-right {
+	margin-right: -10px;
+	margin-left: 10px;
+}*/
+
+.card-content {
+	color: #000;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 15px;
+	background: #fff;
+	box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.36);
+	transition: all 0.5s ease;
+}
+.card-content:hover {
+	box-shadow: 0px 15px 25px -1px rgba(0,0,0,0.56);
+}
+.card-content p {
+	text-align: center;
+}
+
+form {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+form input {
+	margin: 10px 0;
+}
+form .hidden {
+	display: none;
+}
+
+footer {
+	margin-top: 150px;
+	background: #888;
+}
+
+footer a {
+	color: #fff;
+}
+footer a:hover {
+	color: #ddd;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 735px){
+	html, body {
+	    overflow-x: hidden;
+	}
+	.navbar-brand {
+		display: none;
+	}
+	.navbar {
+		display: none;
+	}
+	#contact-btn {
+		display: none;
+	}
+	#about p {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	p {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.hideme {
+		opacity: 1;
+	}
+	form {
+		padding: 0 15px;
+	}
+}
